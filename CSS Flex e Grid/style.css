@@ -1,0 +1,14 @@
+header{
+    height: 50px;
+    width: auto;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
