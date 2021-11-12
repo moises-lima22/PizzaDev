@@ -1,0 +1,107 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    :root{
+        --cor-cargo: #FF9728;
+        --fundo-2:#FF9728;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    ul, ol{
+       list-style: none;
+    }
+
+    html{
+        display: flex;
+        justify-content: center;
+    }
+
+    body{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--fundo-2);
+    }
+
+    .logo img{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        margin-right: 600px;
+        border: solid 1px white;
+        border-radius: 25px;
+    }
+
+    nav .navbar{
+        height: 70px;
+        width: 500px;      
+        color: white;
+    }
+
+    .navbar{
+        display: flex;
+        flex-flow: wrap nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .navbar img{
+        height: 15px;
+        width: 15px;
+    }
+
+    main{
+        
+    }
+
+    .card-noticia{
+        background-color: beige;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+     table,.table-delivery th, td{
+        border: solid 1px  white;
+        border-collapse: collapse;
+        padding: 4px 8px;
+        color: rgb(90, 89, 89);
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    .table-delivery thead tr th{
+        background-color: var(--cor-cargo);
+        color: white;
+    }
+
+    table tr:nth-child(odd){
+        background-color:rgb(245, 241, 241);
+    }
+
+    footer{
+        position: relative;
+        bottom: -100px;        
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--fundo-2);
+    }
+
